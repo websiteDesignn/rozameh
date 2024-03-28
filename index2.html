@@ -10,6 +10,34 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        content: ["./*.html", "./**/*.js"],
+        theme: {
+          extend: {
+            spacing: {
+              156: "470px",
+              178: "500px",
+              186: "570px",
+              210: "620px",
+            },
+            screen: {
+              "3xl": "1700px",
+            },
+            colors: {
+              silver: "#ecebff",
+              brown: "#964B00",
+            },
+            borderRadius: {
+              "4xl": "2rem",
+            },
+          },
+        },
+        plugins: [],
+      };
+    </script>
   </head>
   <body class="overflow-x-hidden bg-gray-100 dark:bg-gray-800" id="body">
     <!--start header-->
