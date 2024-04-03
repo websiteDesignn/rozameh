@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fire_ball</title>
+    <link rel="stylesheet" href="/src/css/app.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="src/css/app.css" />
   </head>
   <body class="overflow-x-hidden bg-gray-100 dark:bg-gray-800" id="body">
     <!--start header-->
@@ -163,20 +163,16 @@
                 />
               </svg>
             </button>
-            <a href="{{route('login')}}">
-              <button
-                class="mr-5 sm:mr-6 md:-mr-16 text-2xl sm:text-xl lg:text-base bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-28 h-14 sm:w-20 lg:w-24 lg:h-12 rounded-full rounded-tr-md"
-              >
-                ثبت نام
-              </button>
-            </a>
-            <a href="{{route('login')}}">
-              <button
-                class="mr-2 ml-10 md:-mr-7 pb-3 md:pb-0 lg:ml-2 text-3xl sm:text-xl lg:text-base bg-slate-800 text-white dark:text-black dark:bg-white rounded-full rounded-tl-md rounded-r-sm w-28 h-14 sm:w-24 lg:w-24 lg:h-12 border-4 border-stone-400 pl-2"
-              >
-                ورود
-              </button>
-            </a>
+            <button
+              class="mr-5 sm:mr-6 md:-mr-16 text-2xl sm:text-xl lg:text-base bg-gradient-to-br from-cyan-400 to-amber-300 dark:bg-white text-white dark:text-black w-28 h-14 sm:w-20 lg:w-24 lg:h-12 rounded-full rounded-tr-md"
+            >
+              ثبت نام
+            </button>
+            <button
+              class="mr-2 ml-10 md:-mr-7 pb-3 md:pb-0 lg:ml-2 text-3xl sm:text-xl lg:text-base bg-slate-800 text-white dark:text-black dark:bg-white rounded-full rounded-tl-md rounded-r-sm w-28 h-14 sm:w-24 lg:w-24 lg:h-12 border-4 border-stone-400 pl-2"
+            >
+              ورود
+            </button>
           </div>
         </div>
 
@@ -245,35 +241,35 @@
             <p
               class="mr-1 hover:rotate-6 cursor-pointer text-black dark:text-white"
             >
-              <a href="{{route('/')}}">خانه</a>
+              <a href="/index2.html">خانه</a>
             </p>
           </div>
 
           <div>
             <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">
-              <a href="{{route('advertising')}}">معرفی ودانلود بازی</a>
+              <a href="advertising.html">معرفی ودانلود بازی</a>
             </p>
           </div>
 
           <div>
-            <a href="{{route('relationship')}}">
+            <a href="/relationship.html">
               <p
                 class="hover:rotate-6 cursor-pointer text-black dark:text-white"
               >
-                <a href="{{route('relationship')}}">تبلیغات</a>
+                <a href="/relationship.html">تبلیغات</a>
               </p>
             </a>
           </div>
 
           <div>
             <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">
-              <a href="{{route('conctus')}}">ارتباط با ما</a>
+              <a href="/conctus.html">ارتباط با ما</a>
             </p>
           </div>
 
           <div>
             <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">
-              <a href="{{route('ipserver')}}">لیست سرور ها</a>
+              <a href="/ipserver.html">لیست سرور ها</a>
             </p>
           </div>
         </div>
@@ -299,35 +295,35 @@
             <p
               class="mr-1 hover:rotate-6 cursor-pointer text-black dark:text-white"
             >
-              <a href="{{route('/')}}">خانه</a>
+              <a href="/index2.html">خانه</a>
             </p>
           </div>
 
           <div>
             <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">
-              <a href="{{route('advertising')}}">معرفی ودانلود بازی</a>
+              <a href="advertising.html">معرفی ودانلود بازی</a>
             </p>
           </div>
 
           <div>
-            <a href="{{route('relationship')}}">
+            <a href="/relationship.html">
               <p
                 class="hover:rotate-6 cursor-pointer text-black dark:text-white"
               >
-                <a href="{{route('relationship')}}">تبلیغات</a>
+                <a href="/relationship.html">تبلیغات</a>
               </p>
             </a>
           </div>
 
           <div>
             <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">
-              <a href="{{route('conctus')}}">ارتباط با ما</a>
+              <a href="/conctus.html">ارتباط با ما</a>
             </p>
           </div>
 
           <div>
             <p class="hover:rotate-6 cursor-pointer text-black dark:text-white">
-              <a href="{{route('ipserver')}}">لیست سرور ها</a>
+              <a href="/ipserver.html">لیست سرور ها</a>
             </p>
           </div>
         </div>
@@ -343,7 +339,7 @@
           class="w-96 h-96 bg-sky-400 overflow-hidden rounded-full relative mt-24 ml-12 sm:ml-8 md:ml-16"
         >
           <img
-            src="public/image/picture1.jpg"
+            src="/public/image/picture1.jpg"
             alt="image"
             class="w-full h-full"
           />
@@ -414,19 +410,19 @@
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M8.83538 10.3C9.27844 10.6121 9.74293 10.8745 10.2217 11.0731C10.519 11.1809
-            10.9855 10.8756 11.3285 10.6511L11.3286 10.6511C11.4143 10.595
-            11.4923 10.544 11.558 10.5057L11.5796 10.4936C11.9027 10.3121 12.2615
-            10.1106 12.7228 10.2078C13.1373 10.2929 14.5594 11.4136 14.9524 11.8108C15.2097
-            12.0661 15.3526 12.3357 15.374 12.6123C15.4169 13.6408 14.0377 14.7969 13.709
-            14.9955C13.0087 15.5062 12.0725 15.4991 10.9435 14.9884C9.73579 14.499 8.29228
-            13.4705 6.8988 12.2222C6.39998 11.7753 5.44205 10.8344 5.16944 10.5202C3.76167
-            8.99521 2.57543 7.35674 2.01803 6.03036C1.75363 5.47002 1.625 4.95224 1.625
-            4.4912C1.625 4.03725 1.75363 3.63295 2.00374 3.2854C2.15381 3.02296 3.36149
-            1.59018 4.42625 1.62565C4.69066 1.65402 4.96221 1.78878 5.22661 2.04413C5.62679
-            2.43424 6.7773 3.84574 6.86306 4.26422C6.96089 4.71509 6.75803 5.07099 6.57526
-            5.39163L6.57526 5.39163L6.56292 5.41328C6.52173 5.48445 6.46588 5.56888 6.40483
-            5.66117L6.40482 5.66118C6.1799 6.0012 5.8843 6.44805 5.99052 6.73257C6.25564
+                  d="M8.83538 10.3C9.27844 10.6121 9.74293 10.8745 10.2217 11.0731C10.519 11.1809 
+            10.9855 10.8756 11.3285 10.6511L11.3286 10.6511C11.4143 10.595 
+            11.4923 10.544 11.558 10.5057L11.5796 10.4936C11.9027 10.3121 12.2615 
+            10.1106 12.7228 10.2078C13.1373 10.2929 14.5594 11.4136 14.9524 11.8108C15.2097 
+            12.0661 15.3526 12.3357 15.374 12.6123C15.4169 13.6408 14.0377 14.7969 13.709 
+            14.9955C13.0087 15.5062 12.0725 15.4991 10.9435 14.9884C9.73579 14.499 8.29228 
+            13.4705 6.8988 12.2222C6.39998 11.7753 5.44205 10.8344 5.16944 10.5202C3.76167 
+            8.99521 2.57543 7.35674 2.01803 6.03036C1.75363 5.47002 1.625 4.95224 1.625 
+            4.4912C1.625 4.03725 1.75363 3.63295 2.00374 3.2854C2.15381 3.02296 3.36149 
+            1.59018 4.42625 1.62565C4.69066 1.65402 4.96221 1.78878 5.22661 2.04413C5.62679 
+            2.43424 6.7773 3.84574 6.86306 4.26422C6.96089 4.71509 6.75803 5.07099 6.57526 
+            5.39163L6.57526 5.39163L6.56292 5.41328C6.52173 5.48445 6.46588 5.56888 6.40483 
+            5.66117L6.40482 5.66118C6.1799 6.0012 5.8843 6.44805 5.99052 6.73257C6.25564 
             7.38512 6.63438 8.02348 7.09102 8.6122C7.59779 9.21811 8.39233 9.98789 8.83538 10.3Z"
                   stroke="currentColor"
                   stroke-width="1.5"
@@ -441,129 +437,18 @@
         class="flex justify-between items-center w-[803px] sm:w-[767px] md:w-[940px] lg:w-[1279px]"
       >
         <div
-          class="overflow-hidden flex items-center justify-center bg-slate-200 w-56 h-52 mt-16 ml-28 rounded-xl"
+          class="dark:bg-white bg-gray-800 w-52 h-44 mt-32 ml-36 lg:ml-52 rounded-lg"
         >
-          <div class="swiper mySwiper5 w-full h-64 md:h-52">
-            <div class="swiper-wrapper">
-              <div
-                class="swiper-slide flex items-center justify-center relative"
-              >
-                <img
-                  class="w-full h-full absolute"
-                  src="public/image/footer.png.webp'"
-                  alt=""
-                />
-                <p class="z-50 absolute text-white">
-                  جهت تبلیغ در این کادر کلیک کنید
-                </p>
-              </div>
-              <div
-                class="swiper-slide flex items-center justify-center relative"
-              >
-                <img
-                  class="w-full h-full absolute"
-                  src="{{asset('image/picture1.jpg')}}"
-                  alt=""
-                />
-                <p class="z-50 absolute text-white">
-                  جهت تبلیغ در این کادر کلیک کنید
-                </p>
-              </div>
-              <div
-                class="swiper-slide flex items-center justify-center relative"
-              >
-                <img
-                  class="w-full h-full absolute"
-                  src="{{asset('image/picture5.webp')}}"
-                  alt=""
-                />
-                <p class="z-50 absolute text-white">
-                  جهت تبلیغ در این کادر کلیک کنید
-                </p>
-              </div>
-              <div
-                class="swiper-slide flex items-center justify-center relative"
-              >
-                <img
-                  class="w-full h-full absolute"
-                  src="{{asset('image/picture4.webp')}}"
-                  alt=""
-                />
-                <p class="z-50 absolute text-white">
-                  جهت تبلیغ در این کادر کلیک کنید
-                </p>
-              </div>
-            </div>
-          </div>
+          <img src="/public/image/picture5.webp" alt="picture1" />
         </div>
-
         <div
           class="dark:bg-white bg-gray-800 w-1/3 h-80 mt-32 mr-10 lg:mr-96 rounded-md overflow-hidden"
         >
-          <div class="swiper mySwiper6 w-full h-full">
-            <div class="swiper-wrapper w-full h-full">
-              <div
-                class="swiper-slide relative flex items-center justify-center"
-              >
-                <img
-                  class="w-full h-full absolute"
-                  src="{{asset('image/picture5.webp')}}"
-                  alt=""
-                />
-                <p class="z-50 absolute text-white font-bold">
-                  جهت تبلیغ در این کادر کلیک کنید
-                </p>
-              </div>
-              <div
-                class="swiper-slide relative flex items-center justify-center"
-              >
-                <img
-                  class="w-full h-full absolute"
-                  src="{{asset('image/picture1.jpg')}}"
-                  alt=""
-                />
-                <p class="z-50 absolute text-white font-bold">
-                  جهت تبلیغ در این کادر کلیک کنید
-                </p>
-              </div>
-              <div
-                class="swiper-slide relative flex items-center justify-center"
-              >
-                <img
-                  class="w-full h-full absolute"
-                  src="{{asset('image/picture3.webp')}}"
-                  alt=""
-                />
-                <p class="z-50 absolute text-white font-bold">
-                  جهت تبلیغ در این کادر کلیک کنید
-                </p>
-              </div>
-              <div
-                class="swiper-slide relative flex items-center justify-center"
-              >
-                <img
-                  class="w-full h-full absolute"
-                  src="{{asset('image/picture7.jpg')}}"
-                  alt=""
-                />
-                <p class="z-50 absolute text-white font-bold">
-                  جهت تبلیغ در این کادر کلیک کنید
-                </p>
-              </div>
-              <div
-                class="swiper-slide relative flex items-center justify-center"
-              >
-                <img
-                  class="w-full h-full absolute"
-                  src="{{asset('image/picture9.jpg')}}"
-                  alt=""
-                />
-                <p class="z-50 absolute text-white font-bold">
-                  جهت تبلیغ در این کادر کلیک کنید
-                </p>
-              </div>
-            </div>
-          </div>
+          <img
+            src="/public/image/picture4.webp"
+            alt="picture1"
+            class="w-full h-full"
+          />
         </div>
       </div>
       <!--start telegram-->
@@ -579,7 +464,7 @@
           <p
             class="absolute top-4 left-8 lg:left-4 pt-2 p-4 text-slate-700 text-lg lg:text-sm font-bold ring-1 ring-white mt-6 rounded-lg"
           >
-            <a href="https://t.me/Fire_ball00" target="_blank">مشاهده کانال</a>
+            <a href="" target="_blank">مشاهده کانال</a>
           </p>
           <span class="absolute top-4 right-10 pt-5">
             <img
@@ -657,7 +542,7 @@
           >
             <img
               class="p-2 rounded-2xl -mt-10 w-80 h-44"
-              src="{{asset('image/mta.png')}} "
+              src="/public/image/mta.png "
               alt=""
             />
             <div class="flex items-end justify-end space-x-2 mr-2">
@@ -716,7 +601,7 @@
                 />
               </svg>
               <p class="text-red-700 pr-32">
-                <a href="{{route('advertising')}}">مشاهده اطلاعات</a>
+                <a href="advertising.html">مشاهده اطلاعات</a>
               </p>
             </div>
           </div>
@@ -726,7 +611,7 @@
           >
             <img
               class="p-2 rounded-2xl -mt-10"
-              src="{{asset('image/samp.jfif')}}"
+              src="/public/image/samp.jfif "
               alt=""
             />
             <div class="flex items-end justify-end space-x-2 mr-2">
@@ -785,7 +670,7 @@
                 />
               </svg>
               <p class="text-red-700 pr-32">
-                <a href="{{route('advertising')}}">مشاهده اطلاعات</a>
+                <a href="advertising.html">مشاهده اطلاعات</a>
               </p>
             </div>
           </div>
@@ -795,7 +680,7 @@
           >
             <img
               class="p-2 rounded-2xl -mt-10 w-80 h-44"
-              src="{{asset('image/minecraft.png')}}"
+              src="/public/image/minecraft.png "
               alt=""
             />
             <div class="flex items-end justify-end space-x-2 mr-2">
@@ -853,7 +738,7 @@
                 />
               </svg>
               <p class="text-red-700 pr-32">
-                <a href="{{route('advertising')}}">مشاهده اطلاعات</a>
+                <a href="advertising.html">مشاهده اطلاعات</a>
               </p>
             </div>
           </div>
@@ -863,7 +748,7 @@
           >
             <img
               class="p-2 rounded-2xl -mt-10 h-44 w-80"
-              src="{{asset('image/gta v.png')}}"
+              src="/public/image/gta v.png "
               alt=""
             />
             <div class="flex items-end justify-end space-x-2 mr-2">
@@ -926,7 +811,7 @@
                 />
               </svg>
               <p class="text-red-700 pr-32">
-                <a href="{{route('advertising')}}">مشاهده اطلاعات</a>
+                <a href="advertising.html">مشاهده اطلاعات</a>
               </p>
             </div>
           </div>
@@ -946,18 +831,16 @@
           <p
             class="absolute top-4 left-5 lg:left-5 pt-2 p-4 text-slate-700 text-lg lg:text-sm font-bold ring-1 ring-white mt-6 rounded-lg"
           >
-            <a href="https://rubika.ir/Fire__Ball" target="_blank"
-              >مشاهده کانال</a
-            >
+            <a href="" target="_blank">مشاهده کانال</a>
           </p>
           <span class="absolute top-4 right-10 pt-6">
-            <img class="w-9 h-9" src="{{asset('image/rubika.png')}}" alt="" />
+            <img class="w-9 h-9" src="/public/image/rubika.png" alt="" />
           </span>
         </div>
       </div>
       <!--start coment-->
       <section
-        class="w-[840px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1426px] mt-4"
+        class="w-[818px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1426px] mt-4"
       >
         <div class="grid lg:grid-cols-2 bg-gray-200 pb-5">
           <div class="lg:hidden text-center mt-5">
@@ -992,7 +875,7 @@
                   <div>
                     <img
                       class="w-10 h-10 rounded-full mr-56 lg:mr-44"
-                      src="{{asset('image/IMG_۲۰۲۳۱۰۲۸_۲۲۱۵۲۱.jpg')}}"
+                      src="/public/image/IMG_۲۰۲۳۱۰۲۸_۲۲۱۵۲۱.jpg"
                       alt=""
                     />
                   </div>
@@ -1020,7 +903,7 @@
                   <div>
                     <img
                       class="w-10 h-10 rounded-full mr-56 lg:mr-44"
-                      src="{{asset('image/1.png')}}"
+                      src="/public/image/1111_g4qv.png"
                       alt=""
                     />
                   </div>
@@ -1049,7 +932,7 @@
 
     <!--start footer-->
     <div
-      class="relative w-[840px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1426px]"
+      class="relative w-[818px] sm:w-[830px] md:w-[940px] lg:w-[1373px] xl:w-[1426px]"
       dir="rtl"
     >
       <footer
@@ -1082,27 +965,25 @@
             برای ثبت ایمیل روی دکمه پایین کلیک کنید
           </p>
           <div class="flex items-center justify-center mt-3">
-            <a href="{{route('login')}}">
-              <button
-                class="text-sm md:text-base flex bg-red-600 rounded-md px-0.5 py-0.5"
+            <button
+              class="text-sm md:text-base flex bg-red-600 rounded-md px-0.5 py-0.5"
+            >
+              <p>ثبت ایمیل</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-4 h-4 md:w-6 md:h-6 rotate-180 mt-1 mr-1"
               >
-                <p>ثبت ایمیل</p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-4 h-4 md:w-6 md:h-6 rotate-180 mt-1 mr-1"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
-                  />
-                </svg>
-              </button>
-            </a>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                />
+              </svg>
+            </button>
           </div>
 
           <div class="flex items-center justify-center mt-2">
@@ -1128,29 +1009,17 @@
                     height="256"
                     alt="Telegram icon"
                   />
-                  <a href="https://t.me/Fire_ball00">
-                    <p
-                      class="text-sm hover:text-blue-300 font-semibold sm:text-base"
-                    >
-                      تلگرام
-                    </p>
-                  </a>
+                  <p class="text-sm text font-semibold sm:text-base">تلگرام</p>
                 </div>
 
                 <div class="flex ml-8 gap-x-2">
                   <img
                     class="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8"
-                    src="{{asset('image/rubika.png')}}"
+                    src="/public/image/rubika.png"
                     alt=""
                   />
 
-                  <a href="https://rubika.ir/Fire__Ball">
-                    <p
-                      class="text-sm font-semibold hover:text-blue-300 sm:text-base"
-                    >
-                      روبیکا
-                    </p>
-                  </a>
+                  <p class="text-sm font-semibold sm:text-base">روبیکا</p>
                 </div>
               </div>
             </div>
@@ -1173,18 +1042,10 @@
             <div class="mr-4 mt-6 md:mr-0 md:mt-0">
               <p class="font-bold text-lg">لینک های سریع :</p>
               <div class="font-normal cursor-pointer">
-                <a href="{{route('/')}}">
-                  <p class="hover:text-blue-300">صفحه اصلی</p>
-                </a>
-                <a href="{{route('advertising')}}">
-                  <p class="hover:text-blue-300">معرفی و دانلود بازی</p>
-                </a>
-                <a href="{{route('ipserver')}}">
-                  <p class="hover:text-blue-300">لیست سرور ها</p>
-                </a>
-                <a href="{{route('relationship')}}">
-                  <p class="hover:text-blue-300">تبلیغات</p>
-                </a>
+                <p class="hover:text-blue-300">صفحه اصلی</p>
+                <p class="hover:text-blue-300">معرفی و دانلود بازی</p>
+                <p class="hover:text-blue-300">لیست سرور ها</p>
+                <p class="hover:text-blue-300">تبلیغات</p>
               </div>
             </div>
 
@@ -1193,11 +1054,7 @@
             >
               <div>
                 تلفن :
-                <a href="tel:+989389725209">
-                  <span class="mr-1 font-bold hover:text-blue-300" dir="ltr"
-                    >0938-972-5209</span
-                  >
-                </a>
+                <span class="mr-1 font-bold" dir="ltr">0938-972-5209</span>
               </div>
 
               <div>
@@ -1233,19 +1090,19 @@
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M8.83538 10.3C9.27844 10.6121 9.74293 10.8745 10.2217 11.0731C10.519 11.1809
-                10.9855 10.8756 11.3285 10.6511L11.3286 10.6511C11.4143 10.595
-                11.4923 10.544 11.558 10.5057L11.5796 10.4936C11.9027 10.3121 12.2615
-                10.1106 12.7228 10.2078C13.1373 10.2929 14.5594 11.4136 14.9524 11.8108C15.2097
-                12.0661 15.3526 12.3357 15.374 12.6123C15.4169 13.6408 14.0377 14.7969 13.709
-                14.9955C13.0087 15.5062 12.0725 15.4991 10.9435 14.9884C9.73579 14.499 8.29228
-                13.4705 6.8988 12.2222C6.39998 11.7753 5.44205 10.8344 5.16944 10.5202C3.76167
-                8.99521 2.57543 7.35674 2.01803 6.03036C1.75363 5.47002 1.625 4.95224 1.625
-                4.4912C1.625 4.03725 1.75363 3.63295 2.00374 3.2854C2.15381 3.02296 3.36149
-                1.59018 4.42625 1.62565C4.69066 1.65402 4.96221 1.78878 5.22661 2.04413C5.62679
-                2.43424 6.7773 3.84574 6.86306 4.26422C6.96089 4.71509 6.75803 5.07099 6.57526
-                5.39163L6.57526 5.39163L6.56292 5.41328C6.52173 5.48445 6.46588 5.56888 6.40483
-                5.66117L6.40482 5.66118C6.1799 6.0012 5.8843 6.44805 5.99052 6.73257C6.25564
+                    d="M8.83538 10.3C9.27844 10.6121 9.74293 10.8745 10.2217 11.0731C10.519 11.1809 
+                10.9855 10.8756 11.3285 10.6511L11.3286 10.6511C11.4143 10.595 
+                11.4923 10.544 11.558 10.5057L11.5796 10.4936C11.9027 10.3121 12.2615 
+                10.1106 12.7228 10.2078C13.1373 10.2929 14.5594 11.4136 14.9524 11.8108C15.2097 
+                12.0661 15.3526 12.3357 15.374 12.6123C15.4169 13.6408 14.0377 14.7969 13.709 
+                14.9955C13.0087 15.5062 12.0725 15.4991 10.9435 14.9884C9.73579 14.499 8.29228 
+                13.4705 6.8988 12.2222C6.39998 11.7753 5.44205 10.8344 5.16944 10.5202C3.76167 
+                8.99521 2.57543 7.35674 2.01803 6.03036C1.75363 5.47002 1.625 4.95224 1.625 
+                4.4912C1.625 4.03725 1.75363 3.63295 2.00374 3.2854C2.15381 3.02296 3.36149 
+                1.59018 4.42625 1.62565C4.69066 1.65402 4.96221 1.78878 5.22661 2.04413C5.62679 
+                2.43424 6.7773 3.84574 6.86306 4.26422C6.96089 4.71509 6.75803 5.07099 6.57526 
+                5.39163L6.57526 5.39163L6.56292 5.41328C6.52173 5.48445 6.46588 5.56888 6.40483 
+                5.66117L6.40482 5.66118C6.1799 6.0012 5.8843 6.44805 5.99052 6.73257C6.25564 
                 7.38512 6.63438 8.02348 7.09102 8.6122C7.59779 9.21811 8.39233 9.98789 8.83538 10.3Z"
                     stroke="currentColor"
                     stroke-width="1.5"
@@ -1254,11 +1111,7 @@
               </div>
               <p class="text-sm sm:font-semibold sm:text-base">
                 شماره تلفن :
-                <a href="tel:+989391131209">
-                  <span class="mr-1 hover:text-blue-300" dir="ltr"
-                    >0939-113-1209</span
-                  >
-                </a>
+                <span class="mr-1" dir="ltr">0939-113-1209</span>
               </p>
             </div>
           </div>
@@ -1267,12 +1120,132 @@
 
       <img
         class="h-[660px] md:h-[430px] w-full absolute z-10"
-        src="{{asset('image/footer2.png')}}"
+        src="/public/image/footer2.png"
         alt=""
       />
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script type="module" src="src/js/app2.js"></script>
+    <script>
+      "use strict";
+      const BTN_DARK = document.getElementById("btn-dark");
+      const BTN_LIGHT = document.getElementById("btn-light");
+      const HTML = document.querySelector("html");
+
+      BTN_DARK.addEventListener("click", enableDarkMode);
+      BTN_LIGHT.addEventListener("click", enableLightMode);
+
+      function enableDarkMode() {
+        HTML.classList.add("dark");
+      }
+
+      function enableLightMode() {
+        HTML.classList.remove("dark");
+      }
+      //#region for darkmode
+
+      //#endregion for darkmode
+
+      //#region for slide
+
+      let swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+
+      let swiper2 = new Swiper(".mySwiper2", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      let swiper3 = new Swiper(".mySwiper3", {
+        effect: "cards",
+        grabCursor: true,
+      });
+
+      let swiper4 = new Swiper(".mySwiper4", {
+        effect: "cards",
+        grabCursor: true,
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        let swiper5 = new Swiper(".mySwiper5", {
+          direction: "vertical",
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          speed: 1000,
+
+          loop: true,
+          slidePerView: 1,
+          autoplay: {
+            dealy: 2000,
+            disableOnInteraction: false,
+          },
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        let swiper6 = new Swiper(".mySwiper6", {
+          effect: "coverflow",
+          spaceBetween: 50,
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          speed: 1000,
+
+          loop: true,
+          slidePerView: 1,
+          autoplay: {
+            dealy: 2000,
+            disableOnInteraction: false,
+          },
+        });
+      });
+
+      //#end region for slide
+
+      //#region responsive for header
+
+      const SIDEBAR_OPEN = document.getElementById("sidebarOpen");
+      const SIDEBAR = document.getElementById("sidebar");
+      const CLOSESIDEBA = document.getElementById("closeSidebar");
+      const SEARCHBOX = document.getElementById("searchBox");
+      const SEARCH = document.getElementById("search");
+      const HIDESEARCHBOX = document.getElementById("hideSearchBox");
+
+      SIDEBAR_OPEN.addEventListener("click", function () {
+        SIDEBAR.classList.toggle("hidden");
+      });
+
+      CLOSESIDEBA.addEventListener("click", function () {
+        SIDEBAR.classList.toggle("hidden");
+      });
+
+      SEARCH.addEventListener("click", function () {
+        SEARCHBOX.classList.remove("hidden");
+      });
+
+      HIDESEARCHBOX.addEventListener("click", function () {
+        SEARCHBOX.classList.add("hidden");
+      });
+
+      //#endregion responsive for header
+    </script>
   </body>
 </html>
