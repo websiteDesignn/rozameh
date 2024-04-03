@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.swiper-slide {
+  color: #fff;
+  transition: all;
+  animation-duration: 700ms;
+}
